@@ -1,4 +1,4 @@
-# PowerShell File Monitoring and Baseline Script
+# PowerShell File Integrity Monitor
 
 This PowerShell script is designed to monitor files in a specified directory for changes, deletions, and new additions. It can also create and manage a baseline of file hashes for comparison.
 
