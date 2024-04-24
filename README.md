@@ -36,6 +36,7 @@ To change the folder that the monitor is watching for file changes, follow these
 - Erases the existing baseline file, if it exists.
 - Retrieves a list of files from the specified directory.
 - Calculates the hash of each file and appends it to the baseline file.
+![baseline](https://github.com/Kmac907/File-Integrity-Monitor/assets/120307903/8c43cc80-a316-4fcb-900c-cd8469bfadb4)
 
 ### Option B: Begin Monitoring with Saved Baseline
 - Initializes a log file for monitoring activities.
@@ -43,6 +44,8 @@ To change the folder that the monitor is watching for file changes, follow these
 - Enters an infinite loop to continuously monitor files.
   - Checks for new files, deleted files, and changes in existing files.
   - Logs the actions in the monitoring log file.
+![monitoring](https://github.com/Kmac907/File-Integrity-Monitor/assets/120307903/9961f8fc-6934-4aa1-a906-5b8cbee2e6bd)
+![log](https://github.com/Kmac907/File-Integrity-Monitor/assets/120307903/5758883e-e27f-4ac8-81b5-06c53622022f)
 
 ## Data Structures and Algorithms
 - **Dictionary**: A hashtable (`$fileHashDictionary`) used to store file paths and their corresponding hashes for efficient lookup and comparison.
