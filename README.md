@@ -41,10 +41,10 @@ To change the folder that the monitor is watching for file changes, follow these
 
 ### Option B: Begin Monitoring with Saved Baseline
 - Initializes a log file for monitoring activities.
-- Loads the baseline file into a dictionary.
-- Enters an infinite loop to continuously monitor files.
-  - Checks for new files, deleted files, and changes in existing files.
-  - Logs the actions in the monitoring log file.
+- Loads the baseline file hashes into a dictionary.
+- Enters an infinite loop to continuously update another dictionary with hash values.
+  - Basline hash dictionary and monitoring hash dictionary are compared every second.
+  - If file integrity is compromised, information is logged along with the actions in the monitoring log file.
 ![monitoring](https://github.com/Kmac907/File-Integrity-Monitor/assets/120307903/9961f8fc-6934-4aa1-a906-5b8cbee2e6bd)
 ![log](https://github.com/Kmac907/File-Integrity-Monitor/assets/120307903/5758883e-e27f-4ac8-81b5-06c53622022f)
 
