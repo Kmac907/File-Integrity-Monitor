@@ -37,6 +37,7 @@ To change the folder that the monitor is watching for file changes, follow these
 - Retrieves a list of files from the specified directory.
 - Calculates the hash of each file and appends it to the baseline file.
 ![baseline](https://github.com/Kmac907/File-Integrity-Monitor/assets/120307903/8c43cc80-a316-4fcb-900c-cd8469bfadb4)
+![hash](https://github.com/Kmac907/File-Integrity-Monitor/assets/120307903/9c231197-0b13-4ef6-810f-3fab9b147d5b)
 
 ### Option B: Begin Monitoring with Saved Baseline
 - Initializes a log file for monitoring activities.
