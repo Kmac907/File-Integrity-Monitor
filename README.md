@@ -2,6 +2,10 @@
 
 This PowerShell script is designed to monitor files in a specified directory for changes, deletions, and new additions. It can also create and manage a baseline of file hashes for comparison.
 
+
+https://github.com/Kmac907/File-Integrity-Monitor/assets/120307903/1d5b87f4-e381-4566-9411-0f3696ba25a3
+
+
 ## Functions
 - `Calculate-File-Hash`: Calculates the hash of a file using the SHA512 algorithm.
 - `Erase-Baseline-If-Already-Exists`: Checks if a baseline file exists and deletes it if it does.
